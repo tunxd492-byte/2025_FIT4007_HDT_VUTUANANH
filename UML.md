@@ -1,8 +1,7 @@
-
--- Đây là sơ đồ lớp mô tả các bài tập
+// Đây là sơ đồ lớp mô tả các bài tập
 classDiagram
 
--- Bài 1: Account
+// Bài 1: Account
 class Account {
   - accountNumber: String
   - balance: double
@@ -12,7 +11,7 @@ class Account {
   + setBalance(balance: double): void
 }
 
--- Bài 2: Book
+// Bài 2: Book
 class Book {
   - bookId: String
   - title: String
@@ -29,7 +28,7 @@ class Book {
   + getFinalPrice(): double
 }
 
--- Bài 3: Student
+// Bài 3: Student
 class Student {
   - studentId: String
   - name: String
@@ -46,7 +45,7 @@ class Student {
   + getAge(): int
 }
 
--- Bài 4: Circle
+// Bài 4: Circle
 class Circle {
   - radius: double
   + Circle()
