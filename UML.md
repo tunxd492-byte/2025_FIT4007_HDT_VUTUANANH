@@ -31,30 +31,30 @@ class Book {
 
 %% Bài 3: Student
 class Student {
-  - studentId: String
-  - name: String
-  - birthYear: int
-  - address: String
-  + Student(studentId: String, name: String)
-  + Student(studentId: String, name: String, birthYear: int, address: String)
-  + getStudentId(): String
-  + getName(): String
-  + getBirthYear(): int
-  + getAddress(): String
-  + setBirthYear(birthYear: int): void
-  + setAddress(address: String): void
-  + getAge(): int
+  - Msv: String
+  - HoTen: String
+  - NamSinh: int
+  - DiaChi: String
+  + Student(Msv: String, HoTen: String)
+  + Student(Msv: String, HoTen: String, NamSinh: int, DiaChi: String)
+  + getMsv(): String
+  + getHoTen(): String
+  + getNamSinh(): int
+  + getDiaChi(): String
+  + getNamSinh(birthYear: int): void
+  + setDiaChi(address: String): void
+  + getTinhTuoi(): int
 }
 
 %% Bài 4: Circle
 class Circle {
-  - radius: double
-  + Circle()
-  + Circle(radius: double)
-  + getRadius(): double
-  + setRadius(radius: double): void
+  - BanKinh: double
+  + VongTron()
+  + VongTron(radius: double)
+  + getBanKinh(): double
+  + setBanKinh(radius: double): void
   + input(): void
   + output(): void
-  + getArea(): double
-  + getPerimeter(): double
+  + getDienTich(): double
+  + getChuVi(): double
 }
