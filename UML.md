@@ -1,6 +1,5 @@
 ```mermaid
-&& Đây là sơ đồ lớp
-class Diagram
+classDiagram
 
 %% Bài 1: Account
 class Account {
