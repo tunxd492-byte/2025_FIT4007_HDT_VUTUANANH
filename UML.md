@@ -1,4 +1,5 @@
 ```mermaid
+class Diagram
 %% Bài 1: Account
 class Account {
   - MaSTK: String
