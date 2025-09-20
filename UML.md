@@ -1,7 +1,4 @@
 ```mermaid
-%% Đây là sơ đồ lớp mô tả các bài tập
-classDiagram
-
 %% Bài 1: Account
 class Account {
   - MaSTK: String
